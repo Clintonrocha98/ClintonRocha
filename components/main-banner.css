@@ -19,6 +19,7 @@
 .main-banner .navigation{
     display: flex;
     justify-content: space-around;
+    padding-top: 38px;
 }
 
 
