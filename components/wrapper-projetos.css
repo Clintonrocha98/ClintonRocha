@@ -1,0 +1,18 @@
+.wrapper-projetos{
+    display: flex;
+
+
+    
+    
+}
+.wrapper-projetos .icon-projeto{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 280px;
+    width: 280px;
+    margin-left: 156px;
+    margin-right: 156px;
+
+}

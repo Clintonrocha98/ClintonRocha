@@ -6,6 +6,6 @@
 }
 .main-title.-second{
     color: #ffffff;
-    text-shadow: 4px 4px 0px #000000;
     text-align: center;
+    text-shadow: none;
 }
