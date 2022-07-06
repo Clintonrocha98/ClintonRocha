@@ -1,0 +1,21 @@
+.card-project{ /*controlador logo */
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 10px 10px 0px #fff;
+}
+.card-project.-primeiro{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 10px 10px 0px rgb(235, 5, 5);
+
+}
+.card-project.-segundo{
+    background-color: rgb(150, 66, 153);
+    box-shadow: 10px 10px 0px rgb(51, 4, 223);
+}
+.card-project.-terceiro{
+    background-color: rgb(96, 79, 97);
+    box-shadow: 10px 10px 0px rgb(41, 224, 5);
+}
