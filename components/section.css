@@ -7,3 +7,10 @@
 .section .main-title{
     margin-bottom: 60px;
 }
+.section.-bgBlack{
+    text-align: center;
+    background-color: #000;
+}
+.section.-bdFrist{
+    border-color: #F25A70;
+}

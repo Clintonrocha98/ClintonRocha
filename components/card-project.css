@@ -9,13 +9,26 @@
 .card-project.-primeiro{
     background-color: rgb(255, 255, 255);
     box-shadow: 10px 10px 0px rgb(235, 5, 5);
+    transition: transform 100ms linear;
 
 }
 .card-project.-segundo{
     background-color: rgb(150, 66, 153);
     box-shadow: 10px 10px 0px rgb(51, 4, 223);
+    transition: transform 100ms linear;
 }
 .card-project.-terceiro{
     background-color: rgb(96, 79, 97);
     box-shadow: 10px 10px 0px rgb(41, 224, 5);
+    transition: transform 100ms linear;
+}
+
+.card-project.-primeiro:hover{
+    transform: scale(1.08);
+}
+.card-project.-segundo:hover{
+    transform: scale(1.08);
+}
+.card-project.-terceiro:hover{
+    transform: scale(1.08);
 }
