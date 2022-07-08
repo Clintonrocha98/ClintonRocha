@@ -10,6 +10,12 @@
 .section.-bgBlack{
     background-color: #000;
 }
+.section.-bgPurple{
+    background-color: #7C5E99;
+}
 .section.-bdFrist{
     border-color: #F25A70;
+}
+.section.-bdSecond{
+    border-color: #000;
 }
