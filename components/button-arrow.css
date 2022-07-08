@@ -4,6 +4,7 @@
     background-color: #F25A70;
     box-shadow: 5px 5px 0 #000;
     cursor: pointer;
+    transition: transform 100ms linear;
 }
 .button-arrow .content{
     display: none;
@@ -21,4 +22,8 @@
 }
 .button-arrow.-left::before{
     transform: rotate(180deg) translateX(15px);
+}
+.button-arrow.-left:hover,
+.button-arrow.-right:hover{
+    transform: scale(1.08);
 }
