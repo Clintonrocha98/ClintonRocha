@@ -15,6 +15,8 @@
 }
 .section.-bgGrey{
     background-color: #828282;
+    border-bottom: none;
+    padding-bottom: 60px;
 }
 .section.-bdFrist{
     border-color: #F25A70;
