@@ -1,6 +1,6 @@
 .main-carrossel{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     position: relative;
     padding-right: 85px;
     padding-left: 85px;
@@ -12,17 +12,25 @@
     top: 47px;
     display: block;
     height: 5px;
-    width: 100%;
+    width: 96%;
     background-color: #000;
 }
 .main-carrossel .button-arrow{
     position: absolute;
     bottom: 65px;
-    
 }
 .main-carrossel .button-arrow.-left{
     left: 15px;
 }
 .main-carrossel .button-arrow.-right{
     right: 15px;
+}
+.main-carrossel .items{
+    display: block;
+    overflow: hidden;
+}
+.main-carrossel .elements{
+    display: flex;
+    justify-content: space-between;    
+    transition: transform 100ms ease-in-out;
 }
