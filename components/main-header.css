@@ -1,8 +1,12 @@
 .main-header{
     display: flex;
+    position: fixed;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     background-color: #7C5E99;
     border-bottom: 10px solid #000;
+    height: 50px;
+    width: 100%;
     padding: 10px 20px;
+    margin-bottom: 50px;
 }
