@@ -1,5 +1,6 @@
 .main-header{
     display: flex;
+    align-items: center;
     justify-content: space-between;
     background-color: #7C5E99;
     border-bottom: 10px solid #000;

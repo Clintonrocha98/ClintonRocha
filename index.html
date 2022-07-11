@@ -2,6 +2,7 @@
 <html lang="pt-BR">
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>Clinton Rocha</title>
 
@@ -9,7 +10,6 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Press+Start+2P&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="css/index.css">
         <link rel="stylesheet" href="components/main-header.css"> 
         <link rel="stylesheet" href="components/main-banner.css">  
         <link rel="stylesheet" href="components/main-title.css">
@@ -24,25 +24,20 @@
         <link rel="stylesheet" href="components/card-project.css"> 
         <link rel="stylesheet" href="components/wrapper-card.css">
         <link rel="stylesheet" href="components/main-description.css">
-        <link rel="stylesheet" href="components/button-arrow.css">
-        <link rel="stylesheet" href="components/node-card.css">
-        <link rel="stylesheet" href="components/main-carrossel.css">
         <link rel="stylesheet" href="components/main-footer.css">
-        <link rel="stylesheet" href="components/main-form.css">
-        <link rel="stylesheet" href="components/scroll.css">
+        <link rel="stylesheet" href="components/efeito-descer.css">
     </head>
 
     <body>
         
         <header class="main-header">
-            <img src="assets/img/logo.png">
+            <img src="assets/img/logo.png" alt="foto-clinton-rocha">
 
             <nav> 
                 <a class="main-action" href="#Skills" lang="en">Skills</a> 
                 <a class="main-action" href="#Projetos">Projetos</a>
                 <a class="main-action" href="#Sobre">Sobre</a>
-                <a class="main-action" href="#Contatos">Contatos</a>
-                <a class="main-button" href="" lang="en">Download CV</a>
+                <a class="main-action" href="#Contatos">Contato</a>
             </nav>
         </header>
 
@@ -52,10 +47,6 @@
                     <h1 class="main-title">Clinton Rocha</h1>
                     <h2 class="main-subtitle">JavaScript Developer</h2>
                 </div>
-                <div class="navigation">
-                    <a class="main-button" href="" lang="en">Download CV</a>
-                    <a class="main-button" href="">Contatos</a>
-                 </div>
             </div>
         </section>
 
@@ -161,17 +152,17 @@
             <div class="wrapper-card">
                 <a href="https://clintonrocha98.github.io/ClintonRocha/">
                     <figure class="card-project -primeiro">
-                        <img class="" src="img/projeto_icon.png" alt="logo do projeto">
+                        <img class="logo-projeto" src="img/projeto_icon.png" alt="logo do projeto">
                     </figure>
                 </a>
                 <a href="https://clintonrocha98.github.io/ClintonRocha/">
                     <figure class="card-project -segundo">
-                        <img class="" src="img/projeto_icon.png" alt="logo do projeto">
+                        <img class="logo-projeto" src="img/projeto_icon.png" alt="logo do projeto">
                     </figure>
                 </a>
                 <a href="https://clintonrocha98.github.io/ClintonRocha/">
                     <figure class="card-project -terceiro">
-                        <img class="" src="img/projeto_icon.png" alt="logo do projeto">
+                        <img class="logo-projeto" src="img/projeto_icon.png" alt="logo do projeto">
                     </figure>
                 </a>
             </div>
@@ -180,80 +171,6 @@
         
         <section class="section -bgPurple -bdSecond" id="Sobre">
             <h3 class="main-title -second" >Sobre</h3>
-            
-            <section class="main-carrossel">
-
-                <button class="button-arrow -left">
-                    <span class="content">avança</span>
-                </button>
-
-                <div class="items">
-                    
-                    <div class="elements">
-
-                        <figure class="node-card">
-
-                            <figcaption class="title">2012</figcaption>
-
-                            <div class="logo">
-                                <img src="img/logo-locaweb.png" alt="logo da locab" >
-                            </div>
-
-                        </figure>
-                        <figure class="node-card -clean">
-
-                            <figcaption class="title">2014</figcaption>
-
-                            <div class="logo">
-                                <img src="img/logo-caelum.png" alt="logo da caelum" >
-                            </div>
-                            
-                        </figure>
-                        <figure class="node-card">
-
-                            <figcaption class="title">2016</figcaption>
-
-                            <div class="logo -bgColor">
-                                <img src="img/logo-getninjas.png" alt="logo da getninja" >
-                            </div>
-                            
-                        </figure>
-                        <figure class="node-card -clean ">
-
-                            <figcaption class="title">2017</figcaption>
-
-                            <div class="logo">
-                                <img src="img/logo-caelum.png" alt="logo da caelum" >
-                            </div>
-                            
-                        </figure>
-                        <figure class="node-card">
-
-                            <figcaption class="title">2018</figcaption>
-
-                            <div class="logo">
-                                <img src="img/logo-impulso.png" alt="logo da impulso" >
-                            </div>
-                            
-                        </figure>
-                        <figure class="node-card">
-
-                            <figcaption class="title">2019</figcaption>
-
-                            <div class="logo -bgColor">
-                                <img src="img/logo-collabcode.png" alt="logo da colabcode" >
-                            </div>
-                            
-                        </figure>
-
-                    </div>
-
-                </div>  
-                <button class="button-arrow -right">
-                    <span class="content">volta</span>
-                </button>
-            </section>
-            
 
             <p class="main-description">
                 Hoje, estuda sobre desenvolvimento FrontEnd, Clinton já trabalhou nas mais diversas áreas. Esta entrando na área de TI como desenvolvedor JavaScript e gosta de ir descobrindo seu caminho conforme o percorre.
@@ -263,43 +180,17 @@
         
         <section class="section -bgGrey" id="Contatos">
             <h3 class="main-title -second">Contato</h3>
-            
-            <div class="main-form">
-
-                <form action="mailto:clintongoncalvesrocha@gmail.com" method="POST" enctype="text/plain">
-                    <div>
-                        <label for="nome">Nome:</label>
-                        <input type="text" required id="nome"/>
-                    </div>
-                    <div>
-                        <label for="email">E-mail:</label>
-                        <input type="email" required id="email">
-                    </div>
-                    <div>
-                        <label for="msg">Mensagem:</label>
-                        <textarea id= "msg" name="" required id="" cols="30" rows="10"></textarea>
-                    </div>
-                    <div class="contact-button">
-                        <button class="main-button -formButton" type="submit">Enviar</button>
-                    </div>
-                </form>
-
-            </div>
 
         </section>
         
-        
-
         <footer class="main-footer">
 
             <a class="action" href="https://www.instagram.com/clinton_rocha98/" target="_blank"> <img src="img/instagram-icone-icon-1.png" alt="icone instagram"> </a>
             <a class="action" href="https://github.com/Clintonrocha98" target="_blank"> <img src="img/github-logo.png" alt="icone github"> </a>
-            <a class="action" href=""> <img src="img/twitter 1.png" alt="icone twitter"> </a>       
-            <a class="action" href=""> <img src="img/youtube 1.png" alt="icone youtube"> </a>          
-            <a class="action" href=""> <img src="img/discord 1.png" alt="icone discord"> </a>
+            <a class="action" href="https://www.linkedin.com/in/clinton-rocha-ba4590212/"> <img src="img/linkedin.png" alt="icone linkedin"> </a>       
+
        
         </footer>
 
-        <script src="js/components/main-carrossel.js"></script>
     </body>
 </html>
